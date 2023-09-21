@@ -48,7 +48,13 @@ export const features: IFeatureProps[] = [
           ),
           families: <a href={"./docs/concepts/modifiers/family"}>"families"</a>,
           build: <code>build</code>,
-          truly: <strong>truly</strong>,
+          truly: (
+            <strong>
+              <Translate id="home.recompute_body.truly">
+                {`truly`}
+              </Translate>
+            </strong>
+          ),
         }}
       >
         {`We no longer have to sort/filter lists inside the {build}

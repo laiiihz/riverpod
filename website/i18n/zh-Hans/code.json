@@ -9,8 +9,11 @@
   "home.recompute_title": {
     "message": "仅在需要时重新计算状态/重建界面"
   },
+  "home.recompute_body.truly": {
+    "message": "真正"
+  },
   "home.recompute_body": {
-    "message": "我们不再需要在 {build}\n          方法内部对列表进行排序/过滤，也不需要使用复杂的缓存机制。{br} {br}\n          使用 {Provider} 和 {families} ，只有在您 {truly} 需要时， 才对列表进行排序或进行HTTP请求。"
+    "message": "我们不再需要在 {build}\n          方法内部对列表进行排序/过滤，也不需要使用复杂的缓存机制。{br} {br}\n          使用 {Provider} 和 {families} ，只有在您{truly}需要时， 才对列表进行排序或进行HTTP请求。"
   },
   "home.refactors_title": {
     "message": "通过重构简化日常工作"
