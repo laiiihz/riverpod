@@ -1,46 +1,67 @@
 {
   "home.shared_state_title": {
-    "message": "任意位置声明共享状态"
+    "message": "从任何地方声明共享状态"
   },
   "home.shared_state_body": {
-    "message": "不再需要在你的 {main} 和UI文件之间来回跳转。 {br} 将共享状态的代码放在它所属的位置上，无论是放在独立的package中还是放在需要它的Widget旁边，都不会丢失它的可测试性。",
+    "message": "不再需要在 {main} 和 UI 文件之间来回跳转。 {br}\n          将共享状态的代码放在其应该放置的位置，          可以是单独的包中，也可以是紧邻需要该状态的 Widget 旁边，\n          同时也不会失去可测试性。",
     "description": "The homepage input placeholder"
   },
   "home.recompute_title": {
-    "message": "最小粒度更新UI和重新计算状态"
+    "message": "仅在需要时重新计算状态/重建界面"
   },
   "home.recompute_body": {
-    "message": "我们无需在 {build} 中对列表进行排序或过滤，也不必依赖高级的缓存机制。 {br}{br} 使用 {Provider} 和 {families} 修饰符，那么它只会在你真正需要的时候才发起HTTP请求或整理你的列表。"
+    "message": "我们不再需要在 {build}\n          方法内部对列表进行排序/过滤，也不需要使用复杂的缓存机制。{br} {br}\n          使用 {Provider} 和 {families} ，只有在您 {truly} 需要时， 才对列表进行排序或进行HTTP请求。"
+  },
+  "home.refactors_title": {
+    "message": "通过重构简化日常工作"
+  },
+  "home.refactors_body": {
+    "message": "Riverpod 提供了各种重构功能， 如“将小部件包装在 Consumer 中”等等。请参阅{warnings}。"
+  },
+  "home.refactors_list_link": {
+    "message": "重构清单"
+  },
+  "home.lint_title": {
+    "message": "使用 lint 规则使您的代码易于维护"
+  },
+  "home.lint_body": {
+    "message": "Riverpod 实现了许多特定的 lint 规则，并且还在不断添加更多规则。\n  这可以确保您的代码始终保持在最佳状态。请参阅{warnings}。"
+  },
+  "home.lint_rules_list_link": {
+    "message": "lint 规则列表"
   },
   "home.safe_read_title": {
-    "message": "安全使用Provider"
+    "message": "安全地读取 providers"
   },
   "home.safe_read_body": {
-    "message": "使用provider不再导致错误的状态。恰当地使用provider，你可以始终获得一个可靠的结果。 {br}{br} 这在异步操作中也是如此，Riverpod可以让你简洁地处理loading/error状态。"
+    "message": "读取 provider 不会导致错误的状态。 如果您能编写读取 provider 所需的代码，您将获得有效的值。{br} {br}\n          这甚至适用于异步加载的值。与一般的 provider 不同， Riverpod 可以清晰地处理加载中和错误的情况。"
   },
   "home.devtool_title": {
     "message": "在DevTools中检查状态"
   },
   "home.devtool_body": {
-    "message": "你可以在Flutter的开发工具中一目了然地看到Riverpod的各种状态。 {br} 此外，一款功能更全面的状态检查工具正在开发中。"
+    "message": "您可以在 Flutter 的开发工具 (devtools) 中一目了然地看到 Riverpod 的各种状态。 {br} 此外，一款功能全面的状态检查工具正在开发中。"
   },
-  "homepage.compile_safe_title": {
-    "message": "编译安全"
+  "homepage.declarative_title": {
+    "message": "声明式编程"
   },
-  "homepage.compile_safe_body": {
-    "message": "不再需要关心{ProviderNotFound}或忘记处理加载中的状态。使用Riverpod，你的代码如果能够通过编译，那么就可以使用。"
+  "homepage.declarative_body": {
+    "message": "您可以以类似无状态 Widget 的方式编写业务逻辑。{br} 您可以将网络请求自动在需要时重新计算，并使您的逻辑易于重用、组合和维护。"
   },
-  "homepage.unlimited_provider_title": {
-    "message": "没有限制的Provider"
+  "homepage.common_ui_patterns_title": {
+    "message": "轻松实现常见的 UI 模式"
   },
-  "homepage.unlimited_provider_body": {
-    "message": "Riverpod的灵感来自于Provider，且解决一些关键的问题：比如支持多个同类型的provider、异步的provider、在任意地方添加各种provider……"
+  "homepage.common_ui_patterns_body": {
+    "message": "使用Riverpod只需几行代码即可轻松实现常用但复杂的 UI 模式，例如“下拉刷新”、“即时搜索”等功能。"
   },
-  "homepage.no_flutter_dependency_title": {
-    "message": "不依赖于Flutter"
+  "homepage.tooling_ready_title": {
+    "message": "工具链完善"
   },
-  "homepage.no_flutter_dependency_body": {
-    "message": "Riverpod可以在不依赖Flutter的情况下创建、共享和测试Provider。你不需要{BuildContext}就能监听Provider。"
+  "homepage.tooling_ready_body": {
+    "message": "Riverpod通过将常见错误转化为编译错误来提高编译时安全。它还提供了自定义的 lint 规则和重构选项。甚至还有一个命令行工具用于生成文档。"
+  },
+  "homepage.features_title": {
+    "message": "特性"
   },
   "home.tagline": {
     "message": "响应式缓存和数据绑定框架"
@@ -71,11 +92,11 @@
     "description": "The label used for the latest version suggestion link label"
   },
   "custom.outdatedTranslations": {
-    "message": "该页面的内容已经过期。 请前往 {englishLink} 查看更多。",
+    "message": "本页面的内容可能已经过时。考虑查看 {englishLink} 以获取最新信息。",
     "description": "The label used inside the outdated translation banner"
   },
   "custom.outdatedTranslationLink": {
-    "message": "英文版",
+    "message": "英文版本",
     "description": "The link that redirects to the equivalent English doc"
   },
   "Code generation": {
@@ -90,10 +111,6 @@
   "theme.ErrorPageContent.title": {
     "message": "页面已崩溃。",
     "description": "The title of the fallback page when the page crashed"
-  },
-  "theme.ErrorPageContent.tryAgain": {
-    "message": "重试",
-    "description": "The label of the button to try again when the page crashed"
   },
   "theme.NotFound.title": {
     "message": "找不到页面",
@@ -187,10 +204,6 @@
     "message": "浅色模式",
     "description": "The name for the light color mode"
   },
-  "theme.docs.breadcrumbs.home": {
-    "message": "主页面",
-    "description": "The ARIA label for the home page in the breadcrumbs"
-  },
   "theme.docs.breadcrumbs.navAriaLabel": {
     "message": "页面路径",
     "description": "The ARIA label for the breadcrumbs"
@@ -200,7 +213,7 @@
     "description": "The default description for a category card in the generated index about how many items this category includes"
   },
   "theme.docs.paginator.navAriaLabel": {
-    "message": "文档分页导航",
+    "message": "文件选项卡",
     "description": "The ARIA label for the docs pagination"
   },
   "theme.docs.paginator.previous": {
@@ -227,7 +240,7 @@
     "description": "The link label to edit the current page"
   },
   "theme.common.headingLinkTitle": {
-    "message": "标题的直接链接",
+    "message": "{heading}的直接链接",
     "description": "Title for link to heading"
   },
   "theme.lastUpdated.atDate": {
@@ -282,6 +295,10 @@
     "message": "选择语言",
     "description": "The label for the mobile language switcher dropdown"
   },
+  "theme.NavBar.navAriaLabel": {
+    "message": "主导航",
+    "description": "The ARIA label for the main navigation"
+  },
   "theme.TOCCollapsible.toggleButtonLabel": {
     "message": "本页总览",
     "description": "The label used by the button on the collapsible TOC component"
@@ -290,13 +307,9 @@
     "message": "阅读需 {readingTime} 分钟",
     "description": "Pluralized label for \"{readingTime} min read\". Use as much plural forms (separated by \"|\") as your language support (see https://www.unicode.org/cldr/cldr-aux/charts/34/supplemental/language_plural_rules.html)"
   },
-  "theme.blog.post.readMore": {
-    "message": "阅读更多",
-    "description": "The label used in blog post item excerpts to link to full blog posts"
-  },
-  "theme.blog.post.readMoreLabel": {
-    "message": "阅读 {title} 的全文",
-    "description": "The ARIA label for the link to full blog posts from excerpts"
+  "theme.docs.breadcrumbs.home": {
+    "message": "主页面",
+    "description": "The ARIA label for the home page in the breadcrumbs"
   },
   "theme.docs.sidebar.collapseButtonTitle": {
     "message": "收起侧边栏",
@@ -306,6 +319,18 @@
     "message": "收起侧边栏",
     "description": "The title attribute for collapse button of doc sidebar"
   },
+  "theme.docs.sidebar.navAriaLabel": {
+    "message": "文档侧边栏",
+    "description": "The ARIA label for the sidebar navigation"
+  },
+  "theme.blog.post.readMore": {
+    "message": "阅读更多",
+    "description": "The label used in blog post item excerpts to link to full blog posts"
+  },
+  "theme.blog.post.readMoreLabel": {
+    "message": "阅读 {title} 的全文",
+    "description": "The ARIA label for the link to full blog posts from excerpts"
+  },
   "theme.docs.sidebar.closeSidebarButtonAriaLabel": {
     "message": "关闭导航栏",
     "description": "The ARIA label for close button of mobile sidebar"
@@ -314,10 +339,6 @@
     "message": "← 回到主菜单",
     "description": "The label of the back button to return to main menu, inside the mobile navbar sidebar secondary menu (notably used to display the docs sidebar)"
   },
-  "theme.docs.sidebar.toggleSidebarButtonAriaLabel": {
-    "message": "切换导航栏",
-    "description": "The ARIA label for hamburger menu button of mobile navigation"
-  },
   "theme.docs.sidebar.expandButtonTitle": {
     "message": "展开侧边栏",
     "description": "The ARIA label and title attribute for expand button of doc sidebar"
@@ -325,6 +346,13 @@
   "theme.docs.sidebar.expandButtonAriaLabel": {
     "message": "展开侧边栏",
     "description": "The ARIA label and title attribute for expand button of doc sidebar"
+  },
+  "theme.docs.sidebar.toggleSidebarButtonAriaLabel": {
+    "message": "切换导航栏",
+    "description": "The ARIA label for hamburger menu button of mobile navigation"
+  },
+  "theme.SearchBar.seeAll": {
+    "message": "查看全部 {count} 个结果"
   },
   "theme.SearchBar.label": {
     "message": "搜索",
@@ -454,8 +482,9 @@
     "message": "正在获取新的搜索结果...",
     "description": "The paragraph for fetching new search results"
   },
-  "theme.SearchBar.seeAll": {
-    "message": "查看全部 {count} 个结果"
+  "theme.ErrorPageContent.tryAgain": {
+    "message": "重试",
+    "description": "The label of the button to try again rendering when the React error boundary captures an error"
   },
   "theme.common.skipToMainContent": {
     "message": "跳到主要内容",
