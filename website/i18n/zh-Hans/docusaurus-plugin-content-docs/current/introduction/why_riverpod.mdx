@@ -1,0 +1,55 @@
+---
+title: 为何选择 Riverpod?
+version: 1
+---
+
+import whyRiverpod from "./why_riverpod";
+import { AutoSnippet } from "../../../../../src/components/CodeSnippet";
+
+## 什么是 Riverpod?
+
+Riverpod ([Provider](https://pub.dev/packages/provider) 的变位词)是一款
+在Flutter/Dart平台的响应式缓存和数据绑定框架。
+
+通过使用声明式和响应式编程， Riverpod 能够为您处理应用的大部分逻辑。
+它可以执行网络请求，且具备内置的错误处理和缓存功能，同时在需要时自动重新获取数据。
+
+## 动机
+
+现代的应用很少包含渲染用户界面所需的所有信息。相反地，数据通常是从服务器异步获取的。
+
+但问题是使用异步代码比较麻烦。尽管Flutter提供了一种创建状态变量并在更改时刷新 UI
+的方式，但仍然有一些限制。以及一些疑问仍未解决：
+
+- 异步请求需要在本地进行缓存， 因为每次UI更新时重新执行它们是不合理的
+- 当使用本地缓存时，我们一不小心可能会使用过期的缓存
+- 我们还需要处理错误和加载中的状态
+
+在很多情况下解决这些问题可能很困难，并且受到许多功能的影响，比如：
+
+- 下拉刷新
+- 无限滚动列表 （滚动时获取数据）
+- 搜索即时响应
+- 异步请求防抖
+- 取消不再使用的异步网络请求
+- 积极的用户界面（ optimistic UIs ）
+- 离线模式
+- ……
+
+这些功能可能很难实现，但对于良好的用户体验至关重要。然而，很少有软件包直接解决这些问题，
+而且很多工作必须手动完成。
+
+这就是Riverpod的用武之地。
+Riverpod 尝试解决这些问题， 受到Flutter widgets 的启发，
+它提供了一种全新且独特的编写业务逻辑的方式。
+在许多方面， Riverpod 类似于 widgets ，但用在状态管理中。
+
+使用这种新的方式，这些复杂的功能大多都是默认完成的。剩下就是专注在您的用户界面。
+
+表示怀疑？ 这里有一个例子。下面的代码片段是使用Riverpod实现的 [Pub.dev](https://github.com/rrousselGit/riverpod/tree/master/examples/pub)
+客户端应用程序的简化版本。
+
+<AutoSnippet language="dart" {...whyRiverpod}></AutoSnippet>
+
+这个代码片段包含了您所需要的所有业务逻辑，
+实现了“搜索即时响应”+“下拉刷新”+“无限列表”，同时还能处理错误和加载状态。

@@ -8,7 +8,7 @@
     "description": "The label for category Introduction in sidebar Sidebar"
   },
   "sidebar.Sidebar.category.Riverpod for Provider Users": {
-    "message": "给Provider用户的Riverpod指南",
+    "message": "给 Provider 用户的 Riverpod 指南",
     "description": "The label for category Riverpod for Provider Users in sidebar Sidebar"
   },
   "sidebar.Sidebar.category.Essentials": {
@@ -112,7 +112,7 @@
     "description": "The label for link Deduplicating network requests (WIP) in sidebar Sidebar, linking to https://github.com/rrousselGit/riverpod/tree/master/examples/marvel"
   },
   "sidebar.Sidebar.link.Search as we type (WIP)": {
-    "message": "输入时搜索 (WIP)",
+    "message": "搜索即时响应 (WIP)",
     "description": "The label for link Search as we type (WIP) in sidebar Sidebar, linking to https://github.com/rrousselGit/riverpod/tree/master/examples/marvel"
   },
   "sidebar.Sidebar.link.Reading InheritedWidgets inside providers (WIP)": {
@@ -192,7 +192,7 @@
     "description": "The label for link Blood Pressure Tracker App in sidebar Sidebar, linking to https://github.com/UrosTodosijevic/blood_pressure_tracker"
   },
   "sidebar.Sidebar.link.Firebase Authentication with Riverpod Following Flutter DDD Architecture Pattern": {
-    "message": "使用 Riverpod 和遵循 Flutter DDD 架构模式的Firebase身份认证用例",
+    "message": "使用 Riverpod 和遵循 Flutter DDD 架构模式的 Firebase 身份认证用例",
     "description": "The label for link Firebase Authentication with Riverpod Following Flutter DDD Architecture Pattern in sidebar Sidebar, linking to https://github.com/pythonhubpy/firebase_authentication_flutter_DDD"
   },
   "sidebar.Sidebar.link.Todo App with Backup and Restore feature": {
@@ -200,7 +200,7 @@
     "description": "The label for link Todo App with Backup and Restore feature in sidebar Sidebar, linking to https://github.com/TheAlphaApp/flutter_riverpod_todo_app"
   },
   "sidebar.Sidebar.link.Integrating Hive database with Riverpod (simple example)": {
-    "message": "将Hive数据库与Riverpod集成(简单示例)",
+    "message": "将 Hive 数据库与 Riverpod 集成(简单示例)",
     "description": "The label for link Integrating Hive database with Riverpod (simple example) in sidebar Sidebar, linking to https://github.com/GitGud31/theme_riverpod_hive"
   },
   "sidebar.Sidebar.link.Browser App with Riverpod": {
@@ -220,11 +220,11 @@
     "description": "The label for link Movies API App with Caching & Pagination in sidebar Sidebar, linking to https://github.com/Roaa94/movies_app"
   },
   "sidebar.Sidebar.link.AWS Amplify Storage Gallery App with Riverpod & Freezed": {
-    "message": "使用 Riverpod,Freezed和AWS Amplify的画廊应用",
+    "message": "使用 Riverpod ， Freezed 和 AWS Amplify 的画廊应用",
     "description": "The label for link AWS Amplify Storage Gallery App with Riverpod & Freezed in sidebar Sidebar, linking to https://github.com/offlineprogrammer/amplify_storage_app"
   },
   "sidebar.Sidebar.link.Clean Architecture demonstration with Riverpod": {
-    "message": "使用Riverpod的整洁架构范例(Clean Architecture)",
+    "message": "使用 Riverpod 的整洁架构范例(Clean Architecture)",
     "description": "The label for link Clean Architecture demonstration with Riverpod in sidebar Sidebar, linking to https://github.com/Uuttssaavv/flutter-clean-architecture-riverpod"
   },
   "sidebar.Sidebar.link.All Providers (WIP)": {
