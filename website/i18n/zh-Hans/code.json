@@ -66,6 +66,51 @@
   "homepage.features_title": {
     "message": "特性"
   },
+  "homepage.features_declarative_check": {
+    "message": "声明式编程"
+  },
+  "homepage.features_network_check": {
+    "message": "原生支持网络请求"
+  },
+  "homepage.features_error_check": {
+    "message": "自动处理加载中/错误的状态"
+  },
+  "homepage.features_compile_check": {
+    "message": "编译安全"
+  },
+  "homepage.features_typed_query_check": {
+    "message": "参数类型安全"
+  },
+  "homepage.features_test_check": {
+    "message": "测试就绪"
+  },
+  "homepage.features_dart_check": {
+    "message": "在 Dart 中可用(服务器/终端/……)"
+  },
+  "homepage.features_combine_check": {
+    "message": "状态易于组合"
+  },
+  "homepage.features_refresh_check": {
+    "message": "内置对下拉刷新的支持"
+  },
+  "homepage.features_lint_check": {
+    "message": "自定义 lint 规则"
+  },
+  "homepage.features_refactor_check": {
+    "message": "内置重构工具"
+  },
+  "homepage.features_hot_reload_check": {
+    "message": "支持热更新"
+  },
+  "homepage.features_logger_check": {
+    "message": "日志记录"
+  },
+  "homepage.features_socket_check": {
+    "message": "Websocket 支持"
+  },
+  "homepage.features_graph_check": {
+    "message": "包含文档生成器"
+  },
   "home.tagline": {
     "message": "响应式缓存和数据绑定框架"
   },
